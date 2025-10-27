@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { BookOpen, Utensils, Music, Palette, Trophy, Cpu, ChevronRight, Menu, X, Search } from 'lucide-react';
 
+import ancestral1 from './assets/gastronomia/ancestral/ancestral1.jpg'
+
 const JulumitoSchool = () => {
   const [selectedCenter, setSelectedCenter] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,7 +29,8 @@ const JulumitoSchool = () => {
           name: "Cocina ancestral",
           images: [
             "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800",
-            "https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=800"
+            "https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=800",
+            ancestral1
           ]
         }
       ],
